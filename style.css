@@ -112,6 +112,7 @@ a:hover {
   text-align: center;
   margin-bottom: 48px;
   color: var(--solid);
+  font-family: monospace;
 }
 
 .title {

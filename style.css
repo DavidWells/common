@@ -28,6 +28,8 @@
 body {
   background-color: var(--background);
   font-family: sans-serif;
+  padding: 0px;
+  margin: 0px;
 }
 
 .header-wrapper {

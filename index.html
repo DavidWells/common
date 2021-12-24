@@ -108,6 +108,26 @@ items.forEach(function(item) {
   });
 });
 
+// Feedback menu 
+
+const copy = () => {
+  // copy to clipbpard 
+
+  const el = document.getElementById("copy-feedback")
+  el.classList.add("show")
+
+  setTimeout(() => el.classList.remove("show"), 3000)
+}
 
 
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4ZB1ZNN1Z9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4ZB1ZNN1Z9');
 </script>
